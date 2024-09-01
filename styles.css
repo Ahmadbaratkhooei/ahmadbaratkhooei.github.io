@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    height: 100vh; /* Ensure full height for vertical centering */
+    display: flex;
+    flex-direction: column; /* Allow the header to stay on top and main content to adjust */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background: none;
+}
+
+/* Center the main content and style the box */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Allow main to take the remaining space */
+    padding: 10px; /* Padding around the content */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+/* Style the content box */
+.content-box {
+    max-width: 800px; /* Set a maximum width for the content box */
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the content box */
+    border: 1px solid #ddd; /* Border around the box */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color of the box */
+    text-align: center; /* Center text inside the box */
+    line-height: 1.5; /* Line height for consistent spacing between lines */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better visibility */
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #444;
+}
+
+.dark-mode nav ul li a {
+    color: white;
+}
+
+.dark-mode .content-box {
+    border-color: #555; /* Darker border color in dark mode */
+    background-color: #444; /* Darker background color in dark mode */
+}
+
