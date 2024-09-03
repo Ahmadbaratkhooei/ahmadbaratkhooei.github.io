@@ -7,13 +7,13 @@ body {
 }
 
 body[data-bs-theme="light"] {
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: white;
+    color: rgb(51, 51, 51);
 }
 
 body[data-bs-theme="dark"] {
     background-color: #333;
-    color: #f8f9fa;
+    color: #faf8f8;
 }
 
 /* Navbar Styles */
@@ -24,7 +24,7 @@ body[data-bs-theme="dark"] {
 }
 
 body[data-bs-theme="light"] #main-nav {
-    background-color: #343a40;
+    background-color: #333333;
 }
 
 .navbar-brand, .nav-link {
@@ -109,7 +109,7 @@ h2 {
 }
 
 body[data-bs-theme="dark"] .card {
-    background-color: #444;
+    background-color: #333333;
     color: #f8f9fa;
 }
 
@@ -132,9 +132,9 @@ body[data-bs-theme="dark"] .card-title {
 }
 
 body[data-bs-theme="dark"] .list-group-item {
-    background-color: #444;
+    background-color: #333333;
     color: #f8f9fa;
-    border-color: #555;
+    border-color: #333333;
 }
 
 /* Responsive Styles */
